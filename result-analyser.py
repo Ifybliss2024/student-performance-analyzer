@@ -33,8 +33,8 @@ for g in Scores:
   elif g>= 45:
     Grade_count["D"] +=1
   elif g>= 40:
-    Grade_count["e"] +=1
-  else
+    Grade_count["E"] +=1
+  else:
     Grade_count["F"] +=1
 
 # 5. Display the results
