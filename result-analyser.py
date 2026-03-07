@@ -1,5 +1,4 @@
-# A script to summarise ENG 401 (COMPUTATIONAL METHODS) RESULTS
-# Topic: Analsyis student total scores
+# A script to analyse ENG 401 (COMPUTATIONAL METHODS) RESULTS
 
 # 1. The data scores for Eng 401
 Scores = [81, 27, 50, 66, 40, 38, 40, 29, 40, 45, 71, 47, 61, 62, 77, 54, 38,
@@ -39,17 +38,17 @@ for g in Scores:
     Grade_count["F"] +=1
 
 # 5. Display the results
-print("RESULT DATA SUMMARY")
-print("-" * 20)
+print("2024/2025 ENG 401 FIRST SEMESTER RESULTS PERFORMANCE ANALYSIS")
+print("-" * 35)
 print(f"Number of Students: {number_of_scores}")
-print(f"Average Score: {average_value}")
+print(f"Average Score: {average_value:.2f}")
 print(f"Highest Score: {highest_value}")
 print(f"Lowest Score: {lowest_value}")
 print(f"Number of students who passed: {passing_count}")
-print("-" * 20)
+print("-" * 35)
 print("Grade distribution:")
 for grade, count in Grade_count.items():
   print(f"Grade {grade}: {count} students")
-print("-" * 20)
+print("-" * 35)
     
     
